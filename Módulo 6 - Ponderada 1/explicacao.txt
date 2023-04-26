@@ -1,0 +1,18 @@
+O código em Python presente no arquivo "desenhopeixeturtlesim.py" visa, como indica o nome, interagir com o turtlesim fazendo-o desenhar a silhueta de um peixe. 
+Os tópicos abaixo explicam o funcionamento essencial dos principais comandos utiilizados para o alcance de tal objetivo.
+- twist: Controla o movimento da tartaruga.
+- twist.linear: Controla a velocidade da tartaruga.
+- twist.angular: Controla a velocidade de rotação da tartaruga.
+- self.time: Calcula o tempo de movimento da tartaruga.
+- time.sleep: Faz a tartaruga esperar até o momento correto para se mover.
+- self.angle: Determina quantos ângulos a tartaruga rotacionará.
+- publish: envia os comandos para o turtlesim. 
+- rclpy.init(args=args): Inicia o ROS.
+
+Quanto às funções utilizadas:
+- init: Inicia o processo.
+- right: Faz a tartaruga virar para a direita.
+- left: Faz a tartaruga virar para a esquerda.
+- move: Faz a tartaruga mover em linha reta.
+- circle: Faz a tartaruga mover em um caminho circular.
+- turn: Faz a tartaruga rotacionar.
